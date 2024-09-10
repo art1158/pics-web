@@ -7,16 +7,16 @@ function Navbar() {
     <nav>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">Inicio</Link>
         </li>
         <li>
-          <Link to="/Negocios">Business</Link>
+          <Link to="/Negocios">Negocios</Link>
         </li>
         <li>
-          <Link to="/Sociales">Social</Link>
+          <Link to="/Sociales">Sociales</Link>
         </li>
         <li>
-          <Link to="/Contacto">Contact</Link>
+          <Link to="/Contacto">Contacto</Link>
         </li>
       </ul>
     </nav>

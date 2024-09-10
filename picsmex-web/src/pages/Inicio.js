@@ -1,10 +1,11 @@
 import React from "react";
 import './styles/Inicio.css';
+import ContactForm from './components/ContactForm.js';
 //import { defer } from "react-router-dom";
 
 function Inicio(){
     return(
-        <div className="homes-container">
+      <div className="home-container">
       <header className="hero-section">
         <h1>Te ayudamos a lograr lo que planeas</h1>
         <p>Agencia de produccion multimedia y consultora estrategica</p>
@@ -39,6 +40,25 @@ function Inicio(){
                 <h3>Comunity manager</h3>
                 <p>Deja que filtremos a tus clientes potenciales y enfócate en tu negocio.</p>
             </div>
+        </div>
+      </section>
+
+      <section className="demo-reel">
+
+      </section>
+
+      <section className="Contacto">
+        <h2>Contactanos</h2>
+        <div className="contact-info">
+          <div>
+            <p>WhatsApp</p>
+            <p>244 229 0348</p>
+            <p>contacto@picsmex.com</p>
+          </div>
+        </div>
+
+        <div className="contact-form">
+          <ContactForm />
         </div>
       </section>
     </div>
