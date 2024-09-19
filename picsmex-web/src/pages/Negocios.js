@@ -1,4 +1,5 @@
 import React from "react";
+import PortafolioSwiper from "./components/Portafolio-Swiper";
 //import './src/styles/Inicio.css';
 //import { defer } from "react-router-dom";
 
@@ -26,7 +27,10 @@ function Negocios(){
             </section>
 
             <section className="galery-section">
-
+                <div className="swiper">
+                    <h2>Portafolio</h2>
+                    <PortafolioSwiper/>
+                </div>
             </section>
         </div>
     );
